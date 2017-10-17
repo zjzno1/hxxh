@@ -1,0 +1,4 @@
+<text class="text t-first">听说这个一个贴出二维码就可以收到钱的年代(~.~)</text>
+<image mode="widthFix" bindtap="imageTab"  class="erweima" src="../../img/erweima.png"></image>
+<text class="text t-second">感谢各位大佬的赞助↖(^ω ^)↗</text>
+<text class="text t-third">捐赠办法：点击二维码→长按二维码保存图片→退回到微信首页→点击右上角「➕」→扫一扫→点击右上角相册→选择保存的二维码→点击右上角完成→感谢各位大佬的捐赠ヾ(*´▽‘*)ﾉ</text>

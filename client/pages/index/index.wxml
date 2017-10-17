@@ -1,0 +1,21 @@
+ <view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">笑话</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">趣图</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper" duration="300" style="height:{{winHeight - 45}}px" bindchange="bindChange">
+  <swiper-item class="swiper-item">
+    <scroll-view style="height:100%;" scroll-y="true" bindscrolltolower="loadMore" lower-threshold="100">
+      <view class="block" wx:for="{{textData}}">
+        {{item.content}}
+      </view> 
+    </scroll-view>
+  </swiper-item>
+  <swiper-item class="swiper-item">
+    <scroll-view style="height:100%;" scroll-y="true" bindscrolltolower="loadMore" lower-threshold="100">
+      <view class="block2" wx:for="{{imgData}}">
+        <text class="text2">{{item.content}}</text>
+        <image mode="widthFix" data-src="{{item.url}}" bindtap="imageTab"  src="{{item.url}}"/>
+      </view>
+    </scroll-view>
+  </swiper-item>
+</swiper> 

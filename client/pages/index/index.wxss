@@ -1,0 +1,65 @@
+/**index.wxss**/
+page {
+  background: #f1f1f1;
+}
+.swiper-tab{  
+  width: 100%;
+  height: 80rpx;
+  text-align: center;  
+  line-height: 80rpx;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  background: #ffffff;
+}  
+.swiper-tab-list{  
+  width: 50%;
+  height: 80rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;  
+  display: inline-block;  
+  color: #777777; 
+  text-align: center; 
+  z-index: 2;
+}  
+.on{ 
+  color: #ff5c54;  
+  border-bottom: 5rpx solid #ff5c54;
+}  
+.swiper {
+  margin-top: 90rpx;
+}
+.swiper-item {
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  background: #f1f1f1;
+  overflow-y: auto;
+  height: 100rpx;
+}
+.block {
+  background: #ffffff;
+  padding: 20rpx 30rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.block2 {
+  background: #ffffff;
+  padding: 10rpx 10rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.block2 image {
+  display: block;
+  margin: auto;
+  width: 730rpx;
+}
+.text2 {
+  font-size: 36rpx;
+  display: inline-block;
+  padding-bottom: 15rpx;
+  padding-top: 20rpx;
+  padding-left: 15rpx;
+}

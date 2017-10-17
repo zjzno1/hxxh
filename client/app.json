@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff5c54",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/index1.png",
+        "iconPath": "img/index.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "img/smile1.png",
+        "iconPath": "img/smile.png",
+        "pagePath": "pages/pay/pay",
+        "text": "感谢"
+      }
+    ]
+  }
+}
